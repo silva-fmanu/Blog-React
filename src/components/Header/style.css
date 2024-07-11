@@ -1,0 +1,14 @@
+
+#logo{
+    color: #7F5AF0;
+    font-family: "Luckiest Guy", cursive;
+    font-size: 3rem;
+    text-decoration: none;
+}
+  
+header{
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    padding: 0 2rem;
+}

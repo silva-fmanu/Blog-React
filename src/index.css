@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Heebo:wght@100..900&family=Luckiest+Guy&display=swap');
+
+/*font-family: "Dosis", sans-serif;
+ font-family: "Luckiest Guy", cursive;
+  font-family: "Heebo", sans-serif;
+*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Dosis", sans-serif;
+}
+
+body{
+  background-color: #16161A;
+}
+
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 5rem;
+}
+
+#post_card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:safe;
+  background-color: #242629;
+  width: 30%;
+  margin: 0.7rem 0;
+  border-radius: 1rem;
+  padding: 0.7rem;
+}
+
+#titulo{
+  font-family: "Dosis", sans-serif;
+  color: #7F5AF0;
+}
+
+#img{
+  width: 100%;
+  border-radius: 1rem;
+}
+
+#descricao{
+  font-size: 1rem;
+  color: #fff;
+}
+
+#post_date{
+  color: #fff;
+}
+
+#autor{
+  color: #fff;
+}
+
+#btn{
+  display: flex;
+  justify-content: end;
+  color: #2CB67D;
+  text-decoration: none;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+#btn:hover{
+  transform: scaley(120%);
+
+}
+
+
+ 
