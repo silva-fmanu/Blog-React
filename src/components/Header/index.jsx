@@ -4,7 +4,7 @@ function Header(){
     return(
         <div>
             <header>
-                <Link id="logo" to={"/"}>BLOG</Link>
+                <Link id="logo" to={"/Blog-React"}>BLOG</Link>
             </header>
         </div>
     );

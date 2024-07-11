@@ -34,7 +34,7 @@ function DetalhesPost() {
           <p id="individual_date">Publicado em: {post.postDate}</p>
         </div>
       </div>
-      <Link id="btn_individual" to="/" >Lista de postagens</Link>
+      <Link id="btn_individual" to="/Blog-React" >Lista de postagens</Link>
     </div>
   );
 }
