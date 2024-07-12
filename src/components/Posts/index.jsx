@@ -30,7 +30,7 @@ function Posts() {
               <h3 id="titulo">{item.title}</h3>
               <p id="descricao">{item.description}</p>
               <p id="post_date">Publicado em: {item.postDate}</p>
-              <Link id="btn" to={`/Postagem/${index}`}>Continue Lendo</Link>
+              <Link id="btn" to={`/Blog-React/Postagem/${index}`}>Continue Lendo</Link>
             </div>
           );
         })}

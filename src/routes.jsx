@@ -10,8 +10,8 @@ function RoutesApp(){
         <BrowserRouter>
         <Header/>
             <Routes>
-                <Route path="/Blog-React" element={<Posts/>}/>
-                <Route path="/Postagem/:id" element={<DetalhesPost/>}/>
+                <Route path="/Blog-React/" element={<Posts/>}/>
+                <Route path="/Blog-React/Postagem/:id" element={<DetalhesPost/>}/>
             </Routes>
         <Footer/>
         </BrowserRouter>
