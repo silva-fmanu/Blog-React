@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import "./style.css"
 
 function Posts() {
   const [posts, setPosts] = useState([]);

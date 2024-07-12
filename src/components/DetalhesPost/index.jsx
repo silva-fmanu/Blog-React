@@ -33,8 +33,8 @@ function DetalhesPost() {
           <p id="autor">Por: {post.profileName}</p>
           <p id="individual_date">Publicado em: {post.postDate}</p>
         </div>
+        <Link id="btn_individual" to="/Blog-React" >Lista de postagens</Link>
       </div>
-      <Link id="btn_individual" to="/Blog-React" >Lista de postagens</Link>
     </div>
   );
 }

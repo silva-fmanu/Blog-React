@@ -1,54 +1,91 @@
-
 #individual_post_card{
     display: flex;    
-    flex-direction: column;   
-    align-items: flex-start; 
+    flex-direction: column;  
+    justify-content: center; 
+    align-items: center; 
     gap: 1rem;            
-    padding: 1rem;        
+    padding: 1rem;   
+    background-color: #242629;
+    width: 90%;
+    border-radius: 2rem;
+    margin: 0 auto;
+    margin-top: 0.7rem;
+    margin-bottom: 5rem;
 }
-
 
 #individual_titulo{
   font-family: "Dosis", sans-serif;
   color: #7F5AF0;
+  font-size: 2.5rem;
+
 }
 
 #individual_img{
-  width: 50%;
+  width: 60%;
   border-radius: 1rem;
 }
 
 #individual_descricao{
-  font-size: 1rem;
+  font-size: 1.2rem;
   color: #fff;
+  margin-bottom: 0.5rem;
 }
 
 #individual_date{
   color: #fff;
 }
 
-#btn{
-  display: flex;
-  justify-content: end;
+#btn_individual{
   color: #2CB67D;
   text-decoration: none;
   transition: all 0.2s;
   cursor: pointer;
 }
 
-#btn:hover{
-  transform: scaley(120%);
+#btn_individual:hover{
+  transform: scale(120%);
 }
  
 #texto{
     display: flex;
     flex-direction: column;
     align-items: start;
+    font-size: 1.1rem;
 }
 
-#btn_individual{
-    text-decoration: none;
-    cursor: pointer;
-    color: #2CB67D;
-    padding: 1rem;
+
+
+@media screen and (max-width: 900px) {
+  #individual_titulo{
+    font-size: 2rem;
+  }
+
+  #individual_descricao{
+    font-size: 1rem;
+  }
+
+  #texto{
+    font-size: 0.9rem;
+  }
 }
+
+
+
+@media screen and (max-width: 750px) {
+  #individual_titulo{
+    font-size: 1.5rem;
+  }
+
+  #individual_descricao{
+    font-size: 0.9rem;
+  }
+
+  #texto{
+    font-size: 0.8rem;
+  }
+
+  #individual_img{
+    width: 100%;
+  }
+}
+
